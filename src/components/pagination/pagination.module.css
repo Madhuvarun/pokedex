@@ -1,0 +1,29 @@
+.pagination_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid green; */
+  padding: 1rem 0rem 1rem 0rem;
+}
+.pagination_list {
+  list-style: none;
+}
+.pagination_list li {
+  display: inline-block;
+  /* border: 1px solid blue; */
+  margin: 0px 7px 0px 7px;
+}
+.pagination_list li button {
+  padding: 1rem;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #000;
+  border: transparent;
+  cursor: pointer;
+}
+.pagination_list li button:hover {
+  opacity: 0.9;
+}
+.active {
+  transform: scale(1.25);
+}

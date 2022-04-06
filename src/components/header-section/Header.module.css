@@ -1,0 +1,10 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.app_header {
+  font-size: 80px;
+  margin: 50px 0px 50px 0px;
+}
