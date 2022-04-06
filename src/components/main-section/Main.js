@@ -7,12 +7,7 @@ export default function Main(props) {
   const { searchInput } = props;
   const { indexOfFirstPokemon } = props;
   const { indexOfLastPokemon } = props;
-  //   console.log(
-  //     "-------------------------Main component-------------------------"
-  //   );
-  //   console.log("first pokemon index: ", indexOfFirstPokemon);
-  //   console.log("Last pokemon index: ", indexOfLastPokemon);
-  //   console.log(pokemonData);
+
   const filteredPokemonData = pokemonData
     .slice(indexOfFirstPokemon, indexOfLastPokemon)
     .filter((pokemon) => {

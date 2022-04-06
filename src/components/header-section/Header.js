@@ -4,8 +4,7 @@ import styles from "./Header.module.css";
 
 export default function Header(props) {
   const { searchInput } = props;
-  // console.log("--------------------Header component-------------------------");
-  // console.log("search input: ", searchInput);
+
   return (
     <header className={styles.header}>
       <h1 className={styles.app_header}>Pokedex</h1>
